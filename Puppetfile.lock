@@ -1,0 +1,19 @@
+FORGE
+  remote: https://forge.puppetlabs.com
+  specs:
+    attachmentgenie-ufw (1.4.9)
+      puppetlabs-stdlib (>= 2.2.1)
+    mthibaut-users (1.0.11)
+      puppetlabs-stdlib (>= 0.0.0)
+    puppetlabs-apt (2.2.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
+    puppetlabs-stdlib (4.9.0)
+    saz-timezone (3.3.0)
+      puppetlabs-stdlib (>= 2.3.0)
+
+DEPENDENCIES
+  attachmentgenie-ufw (>= 0)
+  mthibaut-users (>= 0)
+  puppetlabs-apt (>= 0)
+  saz-timezone (>= 0)
+

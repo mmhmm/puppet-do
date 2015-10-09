@@ -1,0 +1,15 @@
+wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
+sudo dpkg -i puppetlabs-release-trusty.deb
+sudo apt-get update
+sudo apt-get install ruby1.9.1
+sudo apt-get rbenv
+sudo apt-get install puppet-common=3.6.2-1puppetlabs1
+sudo apt-get install facter=2.3.0-1puppetlabs1
+sudo apt-get install hiera=1.3.4-1puppetlabs1
+sudo apt-get install puppet=3.6.2-1puppetlabs1
+sudo apt-get install git
+# git clone dotfiles, install rcm, rcup
+# git clone puppet, rbenv install 1.9.3, rbenv local 1.9.3
+# gem install bundler , bundle install
+# librarian
+# run puppet

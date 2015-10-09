@@ -1,0 +1,1 @@
+puppet apply --hiera_config=$HOME/puppet/hiera.yaml --manifestdir=$HOMEpuppet/manifests --modulepath=$HOME/puppet/modules --logdest console $HOME/puppet/manifests/site.pp

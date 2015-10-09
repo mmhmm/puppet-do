@@ -1,0 +1,13 @@
+---
+users_admins:
+  markhynes:
+    ensure: present
+    uid: 1000
+    gid: 1000
+    groups:
+      - admin
+    shell: /bin/zsh
+    ssh_authorized_keys:
+      101:
+        type: 'ssh-rsa'
+        key:  'AAAAB3NzaC1yc2EAAAADAQABAAABAQC340FYoQjDJVfbpzn8b2od8XRy7mxOXq971pOajANbIfU9ljnDzziMt0uWyc1nTiEnVEVI4GsZ44H4O4KKPLDI0Ez0TxK6y/FfsMrvMNXWKPeaM0ccjNsmexogXEQ3aqYZy2AumZbB3A1eSUo8yOchg0UrUhkCTVGaS1FokqFhpujZ9q6jX8alGS0QPHJiynP0RQM0DC6lf5LyDka24JXh14qRQyPRWSl7dZ/sZmi431VfbGyA/LCksltf4bAzXZqUdoz93lWqd0S0zDyVrM2YvrUKN1kiFF8HGRraGX7b9ataknvuscMfkIAlv6st6UK1OXuBR2BT3RypyM7mkMbn'
